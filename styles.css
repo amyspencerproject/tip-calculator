@@ -77,6 +77,42 @@ select {
 
 /* ========== CSS Variables ========== */
 
+:root {
+  --cyan: hsl(172, 67%, 45%);
+  --drk-cyan: hsl(183, 100%, 15%);
+  --drk-grey-cyan: hsl(186, 14%, 43%);
+  --grey-cyan: hsl(184, 14%, 56%);
+  --lt-grey-cyan: hsl(185, 41%, 84%);
+  --very-lt-grey-cyan: hsl(189, 41%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* ========== Header ========== */
+.app-header {
+  background-color: var(--lt-grey-cyan);
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* ========== Input Section ========== */
+.input-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ========== Tip Section ========== */
+
+.tip-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ========== Footer ========== */
 
 footer {

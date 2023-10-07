@@ -23,16 +23,35 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
-    person Total / person Reset
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-
+    <header class="app-header">
+      <img src="./images/logo.svg" alt="" />
+    </header>
+    <main>
+      <div class="input-container">
+        <h2 class="input-header">Bill</h2>
+        <input type="text" />
+        <h2 class="input-header">Select Tip %</h2>
+        <div class="percentage-container">
+          <ul>
+            <li>5%</li>
+            <li>10%</li>
+            <li>15%</li>
+            <li>25%</li>
+            <li>50%</li>
+            <li>Custom</li>
+          </ul>
+        </div>
+        <h2 class="input-header">Number of People</h2>
+        <input type="text" />
+      </div>
+      <div class="tip-container">
+        <h2 class="tip-header">Tip Amount</h2>
+        <p>/ person</p>
+        <h2 class="tip-header">Total</h2>
+        <p>/ person</p>
+        <button class="reset">Reset</button>
+      </div>
+    </main>
     <footer>
       <p class="attribution">
         Challenge by

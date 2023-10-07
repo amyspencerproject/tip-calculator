@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Github Repo URL: [Tip Calculator Repo](https://github.com/amyspencerproject/qr-code)
-- Live Site URL: [Tip Calculator Page](https://amyspencerproject.github.io/qr-code/)
+- Github Repo URL: [Tip Calculator Repo](https://github.com/amyspencerproject/tip-calculator)
+- Live Site URL: [Tip Calculator Page](https://amyspencerproject.github.io/tip-calculator/)
 
 ## My process
 
