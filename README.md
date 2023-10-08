@@ -51,7 +51,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Love Story of Labels and Inputs](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - This article from CSS tricks was funny and full of helpful info all in one place 💕
 
 ## Author
 

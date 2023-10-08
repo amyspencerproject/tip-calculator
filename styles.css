@@ -104,6 +104,10 @@ select {
   justify-content: center;
 }
 
+.tip-radio-btn {
+  visibility: hidden;
+}
+
 /* ========== Tip Section ========== */
 
 .tip-container {
