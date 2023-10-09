@@ -73,7 +73,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
-/* ========================= Base Styles ========================= */
+/* ========================= Styles ========================= */
 
 /* ========== CSS Variables ========== */
 
@@ -85,6 +85,28 @@ select {
   --lt-grey-cyan: hsl(185, 41%, 84%);
   --very-lt-grey-cyan: hsl(189, 41%, 97%);
   --white: hsl(0, 0%, 100%);
+}
+
+/* ========== Base Styles ========== */
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: var(--lt-grey-cyan);
+}
+
+main {
+  background-color: var(--white);
+  border-radius: 25px 25px 0 0;
+}
+
+h2,
+label,
+legend {
+  font-size: 1rem;
+}
+
+fieldset {
+  border: none;
 }
 
 /* ========== Header ========== */
@@ -102,24 +124,97 @@ select {
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  background-color: var(--white);
+  border-radius: 25px 25px 0 0;
+}
+
+.bill-label,
+.percent-label,
+.input-header {
+  color: var(--drk-grey-cyan);
+}
+
+.bill-input,
+.people-input {
+  background-color: var(--very-lt-grey-cyan);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  color: var(--drk-cyan);
+  font-size: 1.5rem;
+}
+
+.custom-label {
+  border-radius: 5px;
+  background-color: var(--very-lt-grey-cyan);
+  color: var(--drk-grey-cyan);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem 3rem;
+}
+
+.custom-tip-input {
+  visibility: hidden;
+}
+
+.percentage-container {
+  display: grid;
 }
 
 .tip-radio-btn {
   visibility: hidden;
 }
 
-/* ========== Tip Section ========== */
+.tip-label {
+  border-radius: 5px;
+  background-color: var(--drk-cyan);
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem 3rem;
+}
 
-.tip-container {
+/* ========== Output Section ========== */
+
+.output-container {
+  background-color: var(--drk-cyan);
+  border-radius: 15px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  margin: 2rem;
+}
+
+.tip-header {
+  color: var(--white);
+}
+
+.output {
+  color: var(--cyan);
+  font-size: 1.5rem;
+}
+
+.per-person {
+  font: 0.8125rem;
+  color: var(--lt-grey-cyan);
+}
+
+.reset {
+  background-color: var(--cyan);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 6rem;
+  font-size: 1.25rem;
+  color: var(--drk-cyan);
+  text-transform: uppercase;
+  margin: 1rem;
 }
 
 /* ========== Footer ========== */
 
 footer {
+  background-color: var(--lt-grey-cyan);
   display: flex;
   flex-flow: column wrap;
   justify-content: end;
@@ -128,13 +223,13 @@ footer {
 }
 
 footer p {
-  color: var(--light-lavender);
+  color: var(--grey-cyan);
   font-size: 0.825rem;
 }
 
 footer a {
   text-decoration: none;
-  color: var(--gradient-circle-1);
+  color: var(--drk-cyan);
 }
 
 /* ========================= Media Queries ========================= */
