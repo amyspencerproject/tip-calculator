@@ -45,13 +45,15 @@ Users should be able to:
 
 ### What I learned
 
--
+- This design has a lot of opportunities for getting the accessibility right for a screen reader and a keyboard user.
+- How to hide things in CSS [inclusively hidden](https://css-tricks.com/inclusively-hidden/)
 
 ### Continued development
 
 ### Useful resources
 
 - [Love Story of Labels and Inputs](https://css-tricks.com/html-inputs-and-labels-a-love-story/) - This article from CSS tricks was funny and full of helpful info all in one place 💕
+- [Color Converter](https://www.w3schools.com/colors/colors_converter.asp) - the most straight foward converter from W3 Schools
 
 ## Author
 

@@ -92,6 +92,9 @@ select {
 body {
   font-family: "Space Mono", monospace;
   background-color: var(--lt-grey-cyan);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 main {
@@ -239,4 +242,21 @@ footer a {
 
 /* desktop change at 960px */
 @media screen and (min-width: 60rem) {
+  main {
+    max-width: 58rem;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "a b";
+  }
+
+  .input-container {
+    margin: 2rem;
+    grid-area: a;
+  }
+
+  .output-container {
+    grid-area: b;
+  }
 }
