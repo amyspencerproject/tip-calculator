@@ -27,79 +27,81 @@
       <img src="./images/logo.svg" alt="" />
     </header>
     <main>
-      <form class="input-container">
-        <label for="bill" class="bill-label">Bill</label>
-        <input type="text" id="Bill" name="bill" class="bill-input" />
-        <fieldset>
-          <legend class="percent-label">Select Tip %</legend>
-          <div class="percentage-container">
-            <input
-              type="radio"
-              id="tip-5"
-              name="tip-percent"
-              value="5"
-              class="tip-radio-btn"
-            />
-            <label for="tip-5" class="tip-label">5%</label>
+      <form class="form-container">
+        <div class="input-container">
+          <label for="bill" class="bill-label">Bill</label>
+          <input type="text" id="Bill" name="bill" class="bill-input" />
+          <fieldset class="input-fields">
+            <legend class="percent-label">Select Tip %</legend>
+            <div class="percentage-container">
+              <input
+                type="radio"
+                id="tip-5"
+                name="tip-percent"
+                value="5"
+                class="tip-radio-btn"
+              />
+              <label for="tip-5" class="tip-label">5%</label>
 
-            <input
-              type="radio"
-              id="tip-10"
-              name="tip-percent"
-              value="10"
-              class="tip-radio-btn"
-            />
-            <label for="tip-10" class="tip-label">10%</label>
+              <input
+                type="radio"
+                id="tip-10"
+                name="tip-percent"
+                value="10"
+                class="tip-radio-btn"
+              />
+              <label for="tip-10" class="tip-label">10%</label>
 
-            <input
-              type="radio"
-              id="tip-15"
-              name="tip-percent"
-              value="15"
-              class="tip-radio-btn"
-            />
-            <label for="tip-15" class="tip-label">15%</label>
+              <input
+                type="radio"
+                id="tip-15"
+                name="tip-percent"
+                value="15"
+                class="tip-radio-btn"
+              />
+              <label for="tip-15" class="tip-label">15%</label>
 
-            <input
-              type="radio"
-              id="tip-25"
-              name="tip-percent"
-              value="25"
-              class="tip-radio-btn"
-            />
-            <label for="tip-25" class="tip-label">25%</label>
+              <input
+                type="radio"
+                id="tip-25"
+                name="tip-percent"
+                value="25"
+                class="tip-radio-btn"
+              />
+              <label for="tip-25" class="tip-label">25%</label>
 
-            <input
-              type="radio"
-              id="tip-50"
-              name="tip-percent"
-              value="50"
-              class="tip-radio-btn"
-            />
-            <label for="tip-50" class="tip-label">50%</label>
+              <input
+                type="radio"
+                id="tip-50"
+                name="tip-percent"
+                value="50"
+                class="tip-radio-btn"
+              />
+              <label for="tip-50" class="tip-label">50%</label>
 
-            <input
-              type="number"
-              id="custom"
-              name="tip-custom"
-              value="custom"
-              class="custom-tip-input"
-            />
-            <label for="custom" class="custom-label">Custom</label>
-          </div>
-        </fieldset>
-        <label for="people" class="input-header">Number of People</label>
-        <input type="text" id="people" name="people" class="people-input" />
+              <input
+                type="number"
+                id="custom"
+                name="tip-custom"
+                value="custom"
+                class="custom-tip-input"
+              />
+              <label for="custom" class="custom-label">Custom</label>
+            </div>
+          </fieldset>
+          <label for="people" class="input-header">Number of People</label>
+          <input type="text" id="people" name="people" class="people-input" />
+        </div>
+        <div class="output-container">
+          <h2 class="tip-header">Tip Amount</h2>
+          <p class="per-person">/ person</p>
+          <span id="tip-output" class="output">$4.27</span>
+          <h2 class="tip-header">Total</h2>
+          <p class="per-person">/ person</p>
+          <span id="total-output" class="output">$32.79</span>
+          <button class="reset">Reset</button>
+        </div>
       </form>
-      <div class="output-container">
-        <h2 class="tip-header">Tip Amount</h2>
-        <p class="per-person">/ person</p>
-        <span id="tip-output" class="output">$4.27</span>
-        <h2 class="tip-header">Total</h2>
-        <p class="per-person">/ person</p>
-        <span id="total-output" class="output">$32.79</span>
-        <button class="reset">Reset</button>
-      </div>
     </main>
     <footer>
       <p class="attribution">

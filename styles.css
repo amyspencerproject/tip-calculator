@@ -92,14 +92,10 @@ select {
 body {
   font-family: "Space Mono", monospace;
   background-color: var(--lt-grey-cyan);
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }
 
 main {
-  background-color: var(--white);
-  border-radius: 25px 25px 0 0;
+  background-color: var(--lt-grey-cyan);
 }
 
 h2,
@@ -122,13 +118,24 @@ fieldset {
 }
 
 /* ========== Input Section ========== */
+.form-container {
+  background-color: var(--white);
+  border-radius: 25px 25px 0 0;
+}
 .input-container {
-  display: flex;
+  /* display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  background-color: var(--white);
-  border-radius: 25px 25px 0 0;
+  width: 100%; */
+}
+
+.input-fields {
+  /* display: flex;
+  flex-flow: column nowrap;
+  align-items: center; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
 }
 
 .bill-label,
@@ -145,6 +152,7 @@ fieldset {
   padding: 0.5rem 2rem;
   color: var(--drk-cyan);
   font-size: 1.5rem;
+  width: 90%;
 }
 
 .custom-label {
@@ -161,7 +169,11 @@ fieldset {
 }
 
 .percentage-container {
-  display: grid;
+  /* display: flex;
+  flex-flow: column nowrap; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 75%; */
 }
 
 .tip-radio-btn {
@@ -174,7 +186,8 @@ fieldset {
   color: var(--white);
   font-size: 1.5rem;
   text-align: center;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2rem;
+  /* width: 50%; */
 }
 
 /* ========== Output Section ========== */
